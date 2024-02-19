@@ -5,9 +5,10 @@ if [ $(/usr/bin/whoami) == "root" ]; then
 
 	#install dependencies
 	echo -n "Installing the dependencies"
-	for i in {1..3}
+	for i in {1..3}; do
 	echo -n "."
-	sleep 0.5
+	sleep 0.5;
+ 	done
 	
 	#installing
 	pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty
