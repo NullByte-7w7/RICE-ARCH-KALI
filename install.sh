@@ -20,7 +20,7 @@ if [ $(/usr/bin/whoami) == "root" ]; then
 	cp -r polybar /$HOME/.config/	
 
 	#moved .feh for /root/.config
-	cp .feh /$HOME/.config/
+	cp feh /$HOME/.config/.feh
 
 	#moved rofi for /root/.config
 	cp -r rofi /$HOME/.config/	
