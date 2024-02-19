@@ -11,7 +11,7 @@ echo "---" | tee -a /tmp/meubar.log /tmp/polybar2.log
 polybar meubar 2>&1 | tee -a /tmp/polybar1.log & disown
 
 #Start wallpaper
-/root/.feh
+$HOME/.config/.feh
 
 # start my resolution
 xrandr -s 1440x900
