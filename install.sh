@@ -4,7 +4,6 @@
 if [ $(/usr/bin/whoami) == "root" ]; then
 
 	#install dependencies
-
 	echo -n "Installing the dependencies"
 	for i in {1..3}
 	echo -n "."
