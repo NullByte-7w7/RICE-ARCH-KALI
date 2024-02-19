@@ -10,30 +10,30 @@ if [ $(/usr/bin/whoami) == "root" ]; then
 	sleep 0.5
 	
 	#installing
-	pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty
+	pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty
 
 
 	#moved i3 for /etc
 	cp -r i3 /etc/
 
 	#moved polybar for /root/.config
-	cp -r polybar /$HOME/.config/	
+	cp -r polybar $HOME/.config/	
 
 	#moved .feh for /root/.config
-	chmod +x feh && cp feh /$HOME/.config/.feh
+	chmod +x feh && cp feh $HOME/.config/.feh
 
 	#moved rofi for /root/.config
-	cp -r rofi /$HOME/.config/	
+	cp -r rofi $HOME/.config/	
 
 	#moved directory wallpaper for root
-	cp -r wallpaper /$HOME/.config/
+	cp -r wallpaper $HOME/.config/
 
 	#moved alacritty for /root/.config/
-	cp -r alacritty /$HOME/.config/
+	cp -r alacritty $HOME/.config/
 
 	# RESTART I3 AND INIT POLYBAR
 	i3 restart
-	/$HOME/.config/polybar/launch.sh
+	$HOME/.config/polybar/launch.sh
 
 	echo "THANKS FOR USE MY RICE!"
 
