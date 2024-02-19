@@ -10,7 +10,7 @@ if [ $(/usr/bin/whoami) == "root" ]; then
 	sleep 0.5
 	
 	#installing
-	pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty
+	pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty
 
 
 	#moved i3 for /etc
