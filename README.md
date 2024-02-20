@@ -3,3 +3,8 @@
 
 ![VirtualBox_arch_19_02_2024_15_50_39](https://github.com/DARKSECshell/rice_arch/assets/121623691/36f85659-2be6-465e-9966-b015832c1702)
 
+
+**TERMINAL AND BROWSER**
+
+![VirtualBox_arch_20_02_2024_17_39_21](https://github.com/DARKSECshell/rice_arch/assets/121623691/29ef7f1d-24b3-4af0-86df-e2c7776455ee)
+
