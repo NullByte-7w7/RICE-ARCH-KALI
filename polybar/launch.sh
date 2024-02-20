@@ -15,7 +15,7 @@ user=$(who am i | cut -d " " -f1)
 /home/$user/.config/.feh
 
 # start my resolution
-xrandr -s 1920x900 # change for resoluction with base in your monitor
+xrandr -s 1920x1080 # change for resoluction with base in your monitor
 
 # change my keyboard for abnts
 setxkbmap -model abnts -layout br # change with base in your keyboard
