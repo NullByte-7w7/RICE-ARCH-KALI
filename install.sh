@@ -1,44 +1,48 @@
 #!/usr/bin/env bash
 #HI, DEVELOPER DARSEC, THIS IS MY RICE FOR ARCH LINUX.
 
-if [ $(/usr/bin/whoami) == "root" ]; then
+# VARIABLE
+user=$(who i am | cut -d " " -f1)
 
 	#install dependencies
 	echo -n "Installing the dependencies"
 	for i in {1..3}; do
 	echo -n "."
 	sleep 0.5;
- 	done
-	
-	#installing
-	pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty
+	done
 
+	#clear
+	clear
+		
+	#installing
+	sudo pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty
+
+	#clear screen
+	clear
 
 	#moved i3 for /etc
 	cp -r i3 /etc/
 
-	#moved polybar for /root/.config
-	cp -r polybar $HOME/.config/	
+	#moved polybar for /home/user/.config
+	cp -r polybar /home/$user/.config/	
 
-	#moved .feh for /root/.config
-	chmod +x feh && cp feh $HOME/.config/.feh
+	#moved .feh for /home/user/.config
+	chmod +x feh && cp feh /home/$user/.config/.feh && chown $user:$user /home/$user/.config/.feh
 
-	#moved rofi for /root/.config
-	cp -r rofi $HOME/.config/	
+	#moved rofi for /home/user/.config
+	cp -r rofi /home/$user/.config/	
 
-	#moved directory wallpaper for root
-	cp -r wallpaper $HOME/.config/
+	#moved directory wallpaper for /home/user/.config
+	cp -r wallpaper /home/$user/.config/
 
-	#moved alacritty for /root/.config/
-	cp -r alacritty $HOME/.config/
+	#moved alacritty for /home/user/.config/
+	cp -r alacritty /home/$user/.config/
 
+	#PERMISSION EXECUTION launch.sh
+	chmod +x /home/$user/.config/polybar/launch.sh	
+	
 	# RESTART I3 AND INIT POLYBAR
-	i3 restart
-	$HOME/.config/polybar/launch.sh
+	sudo i3 restart
+	sudo /home/$user/.config/polybar/launch.sh
 
 	echo "THANKS FOR USE MY RICE!"
-
-else
-
-	echo "YOU ARE NOT ROOT, RUN WITH ROOT! >> sudo $0"
-fi
