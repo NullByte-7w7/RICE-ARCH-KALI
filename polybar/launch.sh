@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#darksec config
 # Terminate already running bar instances
 # If all your bars have ipc enabled, you can use 
 polybar-msg cmd quit
@@ -11,12 +11,11 @@ echo "---" | tee -a /tmp/meubar.log /tmp/polybar2.log
 polybar meubar 2>&1 | tee -a /tmp/polybar1.log & disown
 
 #Start wallpaper
-$HOME/.config/.feh
+user=$(who am i | cut -d " " -f1)
+/home/$user/.config/.feh
 
 # start my resolution
-xrandr -s 1440x900
+xrandr -s 1920x900 # change for resoluction with base in your monitor
 
 # change my keyboard for abnts
-setxkbmap -model abnts -layout br
-
-echo "Bars launched..."
+setxkbmap -model abnts -layout br # change with base in your keyboard
