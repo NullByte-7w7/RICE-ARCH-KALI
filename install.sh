@@ -28,7 +28,7 @@ user=$(who i am | cut -d " " -f1)
 	cp -r polybar /home/$user/.config/	
 
 	#moved .feh for /home/user/.config
-	chmod +x feh && cp feh /home/$user/.config/.feh && chown $user:$user $HOME/.config/.feh
+	chmod +x feh && cp feh /home/$user/.config/.feh && chown $user:$user /home/$user/.config/.feh
 
 	#moved rofi for /home/user/.config
 	cp -r rofi /home/$user/.config/	
