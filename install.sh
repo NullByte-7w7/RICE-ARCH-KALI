@@ -16,7 +16,7 @@ user=$(who i am | cut -d " " -f1)
 	clear
 		
 	#installing
-	sudo pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty
+	sudo pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty && pacman -S picom
 
 	#clear screen
 	clear
@@ -39,6 +39,9 @@ user=$(who i am | cut -d " " -f1)
 	#moved alacritty for /home/user/.config/
 	cp -r alacritty /home/$user/.config/
 
+	#Moved file for /etc/xdg/picom.conf
+	cp picom.conf /etc/xdg/picom.conf
+ 
 	#PERMISSION EXECUTION launch.sh
 	chmod +x /home/$user/.config/polybar/launch.sh	
 	
