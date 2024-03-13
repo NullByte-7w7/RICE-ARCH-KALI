@@ -16,7 +16,7 @@ user=$(who i am | cut -d " " -f1)
 	clear
 		
 	#installing
-	sudo pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty && pacman -S picom
+	sudo pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty && pacman -S picom && pacman -Syu
 
 	#clear screen
 	clear
