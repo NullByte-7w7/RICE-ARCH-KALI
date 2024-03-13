@@ -1,7 +1,8 @@
 # THANKS FOR VIEW MY RICE
 **KEEP LEARN**
 
-![VirtualBox_arch_19_02_2024_15_50_39](https://github.com/DARKSECshell/rice_arch/assets/121623691/36f85659-2be6-465e-9966-b015832c1702)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/e2f26b61-724a-47b8-b2c3-29f6a7469b01)
+
 
 
 **ROFI**
