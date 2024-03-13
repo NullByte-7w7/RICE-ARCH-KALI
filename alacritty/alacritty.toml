@@ -35,26 +35,26 @@ yellow = "0xe6c547"
 background = "0x000000"
 foreground = "0xeaeaea"
 
+
 [cursor]
-style = "Block"
-unfocused_hollow = true
+style = "Underline"
 
 [font]
-size = 11.0
+size = 13.0
 
 [font.bold]
-family = "Terminus"
+family = "monospace"
 
 [font.glyph_offset]
 x = 0
 y = 0
 
 [font.italic]
-family = "Terminus"
+family = "monospace"
 
 [font.normal]
-family = "Terminus"
-style = "Terminus"
+family = "monospace"
+style = "monospace"
 
 [font.offset]
 x = 0
@@ -567,10 +567,10 @@ mouse = "Middle"
 threshold = 300
 
 [mouse.hints]
-modifiers = "None"
+modifiers = "none"
 
 [mouse.triple_click]
-threshold = 300
+threshold = "300"
 
 [scrolling]
 auto_scroll = false
@@ -585,7 +585,8 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 [window]
 decorations = "none"
 dynamic_padding = true
-opacity = 0.9
+opacity = 0.5
+window.opacity = 0.5
 
 [window.dimensions]
 columns = 0
