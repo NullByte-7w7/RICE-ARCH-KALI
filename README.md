@@ -11,7 +11,7 @@
 
 **TERMINAL OPEN**
 
-![VirtualBox_arch_21_02_2024_17_21_59](https://github.com/DARKSECshell/rice_arch/assets/121623691/14fad397-af39-4fcd-be5d-9d3b5ddbafdb)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/26d124ee-6606-4f75-b633-3dd9b7b861db)
 
 
 **REPOSITORY FOR ARCH WITH TOOLS FROM HACKING AND PENTEST --> https://github.com/andreock/kali-on-linux/blob/main/arch.sh**
