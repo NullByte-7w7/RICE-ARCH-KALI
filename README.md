@@ -1,17 +1,20 @@
 # THANKS FOR VIEW MY RICE
 **KEEP LEARN**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/e2f26b61-724a-47b8-b2c3-29f6a7469b01)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/a0a174c2-973a-4a00-9798-d062c8b3df9b)
+
 
 
 
 **ROFI**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/91ef0984-1a58-4887-80df-eb5f9a10e6c8)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/3e43d8a7-6c58-4110-af24-269c64b5b1ba)
+
 
 **TERMINAL OPEN**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/26d124ee-6606-4f75-b633-3dd9b7b861db)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/414f2527-8d1b-498c-9de1-d5ea1c30c801)
+
 
 
 **REPOSITORY FOR ARCH WITH TOOLS FROM HACKING AND PENTEST --> https://github.com/andreock/kali-on-linux/blob/main/arch.sh**
