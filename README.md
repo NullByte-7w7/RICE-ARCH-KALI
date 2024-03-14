@@ -1,19 +1,21 @@
 # THANKS FOR VIEW MY RICE
 **KEEP LEARN**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/a0a174c2-973a-4a00-9798-d062c8b3df9b)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/ec0a7162-1de9-4561-9cdc-8b1eccb8c613)
 
 
 
 
 **ROFI**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/3e43d8a7-6c58-4110-af24-269c64b5b1ba)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/09a58109-782c-429c-9682-f7e45c96032d)
+
 
 
 **TERMINAL OPEN**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/414f2527-8d1b-498c-9de1-d5ea1c30c801)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/9e2e3cac-1552-4ab6-9137-d5a29547dd18)
+
 
 
 
