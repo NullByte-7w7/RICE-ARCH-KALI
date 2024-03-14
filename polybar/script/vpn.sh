@@ -3,7 +3,7 @@
 
 vpn=$(ifconfig tun0 | grep "10" | head -n 1 | cut -d " " -f10)
 
-if [ "$vpn" = "10.2.119.125" ]; then
+if [ "$vpn" = "<your vpn ip>" ]; then // ip your vpn
 
 	echo "$vpn"
 else
