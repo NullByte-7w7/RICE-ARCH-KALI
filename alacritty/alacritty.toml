@@ -1,7 +1,4 @@
-dynamic_title = true
-enable_experimental_conpty_backend = false
 live_config_reload = true
-tabspaces = 5
 
 [bell]
 animation = "EaseOutExpo"
@@ -563,30 +560,14 @@ hide_when_typing = false
 action = "PasteSelection"
 mouse = "Middle"
 
-[mouse.double_click]
-threshold = 300
-
-[mouse.hints]
-modifiers = "none"
-
-[mouse.triple_click]
-threshold = "300"
-
 [scrolling]
-auto_scroll = false
-faux_multiplier = 3
 history = 10000
 multiplier = 3
-
-[selection]
-save_to_clipboard = false
-semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 
 [window]
 decorations = "none"
 dynamic_padding = true
 opacity = 0.5
-window.opacity = 0.5
 
 [window.dimensions]
 columns = 0
