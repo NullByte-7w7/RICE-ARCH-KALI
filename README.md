@@ -14,7 +14,7 @@
 
 **TERMINAL OPEN**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/9e2e3cac-1552-4ab6-9137-d5a29547dd18)
+![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/a5de229b-6076-416a-b385-a4516f0d13dc)
 
 
 
