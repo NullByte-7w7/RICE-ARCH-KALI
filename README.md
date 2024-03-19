@@ -19,4 +19,4 @@
 
 
 
-```**REPOSITORY FOR ARCH WITH TOOLS FROM HACKING AND PENTEST --> https://github.com/andreock/kali-on-linux/blob/main/arch.sh**```
+```REPOSITORY FOR ARCH WITH TOOLS FROM HACKING AND PENTEST --> https://github.com/andreock/kali-on-linux/blob/main/arch.sh```
