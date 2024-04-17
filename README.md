@@ -15,8 +15,3 @@
 **TERMINAL OPEN**
 
 ![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/a5de229b-6076-416a-b385-a4516f0d13dc)
-
-
-
-
-**REPOSITORY FOR ARCH WITH TOOLS FROM HACKING AND PENTEST --> https://github.com/andreock/kali-on-linux/blob/main/arch.sh**
