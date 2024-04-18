@@ -17,4 +17,9 @@
 ![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/a5de229b-6076-416a-b385-a4516f0d13dc)
 
 **OTHER WALLPAPERS**
+
 ![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/f9efd8f4-8302-4713-8d32-455df839a463)
+
+![anime](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/5acb3d36-e1d4-479e-931b-7fb3212903c7)
+
+![anime](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/141138f1-5272-4d53-b335-c3b0c7875b0a)
