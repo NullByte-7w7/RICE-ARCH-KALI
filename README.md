@@ -22,6 +22,9 @@
 
 ![anime](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/5acb3d36-e1d4-479e-931b-7fb3212903c7)
 
+![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/888a5e95-73b2-44a9-89c1-7d97a5d6f3bf)
+
+
 ![anime](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/141138f1-5272-4d53-b335-c3b0c7875b0a)
 
 **CONFIG .BASHRC**
