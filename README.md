@@ -23,3 +23,8 @@
 ![anime](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/5acb3d36-e1d4-479e-931b-7fb3212903c7)
 
 ![anime](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/141138f1-5272-4d53-b335-c3b0c7875b0a)
+
+**CONFIG .BASHRC**
+
+![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/343cd858-cd03-4d07-9f15-24b0a210a06c)
+
