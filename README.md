@@ -33,5 +33,4 @@
 
 ![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/b4d09703-a500-45eb-a7c4-b802e03dd235)
 
-![anime](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/141138f1-5272-4d53-b335-c3b0c7875b0a)
-
+![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/888a5e95-73b2-44a9-89c1-7d97a5d6f3bf)
