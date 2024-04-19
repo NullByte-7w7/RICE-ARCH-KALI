@@ -67,8 +67,8 @@ bindsym Mod1+d exec --no-startup-id rofi -show run
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 
 #start my Rice
-exec --no-startup-id /home/darksec/.config/polybar/launch.sh # CHANGE
-exec --no-startup-id /home/darksec/.config/.feh # CHANGE
+exec --no-startup-id $HOME/.config/polybar/launch.sh # CHANGE
+exec --no-startup-id $HOME/.config/.feh # CHANGE
 exec --no-startup-id /usr/bin/picom &
 
 # change focus
