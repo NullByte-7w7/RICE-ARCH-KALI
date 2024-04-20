@@ -15,7 +15,8 @@
 
 **TERMINAL OPEN**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/a5de229b-6076-416a-b385-a4516f0d13dc)
+![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/bcf3188e-2944-4400-b1fb-917c93bf008d)
+
 
 **OTHER WALLPAPERS**
 
