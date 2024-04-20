@@ -1,7 +1,8 @@
 # THANKS FOR VIEW MY RICE
 **KEEP LEARN**
 
-![default_tryhackme (1)](https://github.com/DARKSECshell/rice_arch/assets/121623691/ec0a7162-1de9-4561-9cdc-8b1eccb8c613)
+![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/2a1ef6cc-3036-469b-9fbf-f0cc302dc9e6)
+
 
 
 
