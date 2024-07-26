@@ -9,7 +9,7 @@
 
 **ROFI**
 
-![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/8195d728-9c4b-45f6-a55b-fe8a766aa6a5)
+![Rice](https://github.com/user-attachments/assets/1d43aa7d-a927-4794-8552-0e3811268cc1)
 
 
 
