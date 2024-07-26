@@ -1,9 +1,9 @@
 # THANKS FOR VIEW MY RICE
 **KEEP LEARN**
 
-![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/2a1ef6cc-3036-469b-9fbf-f0cc302dc9e6)
+**CLEAN**
 
-
+![Rice](https://github.com/user-attachments/assets/5599ab6d-1857-44f1-afab-02ec4e3fd47d)
 
 
 
