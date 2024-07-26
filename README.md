@@ -15,4 +15,5 @@
 
 **TERMINAL OPEN**
 
-![arch_root](https://github.com/DARKSECshell/RICE-ARCH/assets/121623691/bcf3188e-2944-4400-b1fb-917c93bf008d)
+![Rice](https://github.com/user-attachments/assets/29b42982-35c2-45cd-b6d4-dc9b0f26eaea)
+
