@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-#darksec config
+
+user=$(who am i | cut -d " " -f1)
 # Terminate already running bar instances
-# If all your bars have ipc enabled, you can use 
+# If all your bars have ipc enabled, you can use
 polybar-msg cmd quit
 # Otherwise you can use the nuclear option:
 # killall -q polybar
@@ -10,12 +11,10 @@ polybar-msg cmd quit
 echo "---" | tee -a /tmp/meubar.log /tmp/polybar2.log
 polybar meubar 2>&1 | tee -a /tmp/polybar1.log & disown
 
-#Start wallpaper
-user=$(who am i | cut -d " " -f1)
-/home/$user/.config/.feh
-
-# start my resolution
-xrandr -s 1920x1080 # change for resoluction with base in your monitor
+#start picom
+/usr/bin/picom &
 
 # change my keyboard for abnts
-setxkbmap -model abnts -layout br # change with base in your keyboard
+/usr/bin/setxkbmap us
+
+echo "Bars launched..."
