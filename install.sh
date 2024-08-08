@@ -18,6 +18,20 @@ check(){
     fi
 }
 
+# Change shell
+
+change_shell(){
+	path="/usr/bin/chsh"
+
+  	if [ -e "$path" ]; then 
+  		/usr/bin/chsh -s /usr/bin/zsh
+	else
+ 		/usr/bin/echo "[!] NOT FOUND PATH $path PLEASE INSTALL chsh"
+		exit 1
+	fi
+}
+
+
 # start install rice
 
 if [ "$(whoami)" = "root" ]; then
@@ -65,8 +79,13 @@ else
 	/usr/bin/cp picom.conf /etc/xdg/picom.conf
 
 	#permissions directory scripts
-	chown $user:$user /home/darksec/.config/polybar/script
- 	chown $user:$user /home/darksec/.config/polybar/script/*.sh
+	/usr/bin/chown $user:$user /home/darksec/.config/polybar/script
+ 	/usr/bin/chown $user:$user /home/darksec/.config/polybar/script/*.sh
+
+	#zsh config file
+ 	/usr/bin/mv .zshrc /home/$user/
+  	/usr/bin/mv zshrc.pre-oh-my-zsh /home/$user/.zshrc.pre-oh-my-zsh
+	change_shell
  
      	#install fonts
     	/usr/bin/cp -r fonts/*ttf /usr/share/fonts/
@@ -85,6 +104,6 @@ else
 
 	/usr/bin/sleep 1
 	
-	/usr/bin/echo "THANKS FOR USE MY RICE!"
+	/usr/bin/echo "THANKS FOR USE MY RICE! RESTART COMPUTER OR NOTEBOOK"
 
 fi
