@@ -11,6 +11,7 @@ check(){
 
     if [ -e "$path" ]; then
         echo "[*] Found '$path'"
+	/usr/bin/fc-cache -fv
     else
         /usr/bin/echo "[!] NOT FOUND $path. PLEASE INSTALL fc-cache"
         exit 1
