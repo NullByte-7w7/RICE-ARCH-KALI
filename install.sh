@@ -64,7 +64,11 @@ else
 	#Moved file for /etc/xdg/picom.conf
 	/usr/bin/cp picom.conf /etc/xdg/picom.conf
 
-    	#install fonts
+	#permissions directory scripts
+	chown $user:$user /home/darksec/.config/polybar/script
+ 	chown $user:$user /home/darksec/.config/polybar/script/*.sh
+ 
+     	#install fonts
     	/usr/bin/cp -r fonts/*ttf /usr/share/fonts/
     	check
 
