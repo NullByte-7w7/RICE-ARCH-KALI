@@ -37,7 +37,7 @@ else
 	/usr/bin/clear
 		
 	#installing
-    sudo pacman -S xorg-xrandr i3 feh fish polybar rofi alacritty picom --needed --noconfirm
+    	sudo pacman -S xorg-xrandr i3 feh fish polybar rofi alacritty picom --needed --noconfirm
 
 	#clear screen
 	/usr/bin/clear
@@ -63,18 +63,17 @@ else
 	#Moved file for /etc/xdg/picom.conf
 	/usr/bin/cp picom.conf /etc/xdg/picom.conf
 
-    #install fonts
-    /usr/bin/cp -r fonts/*ttf /usr/share/fonts/
-    check
+    	#install fonts
+    	/usr/bin/cp -r fonts/*ttf /usr/share/fonts/
+    	check
 
 	#PERMISSION EXECUTION launch.sh
 	/usr/bin/chmod +x /home/$user/.config/polybar/launch.sh	
-    /usr/bin/chown $user:$user/.config/polybar/launch.sh
+    	/usr/bin/chown $user:$user/.config/polybar/launch.sh
 
 	# RESTART I3 AND INIT POLYBAR
 	i3 restart
 	/home/$user/.config/polybar/launch.sh
-
 
 	#clear screen
 	/usr/bin/clear
