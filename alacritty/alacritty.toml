@@ -2,7 +2,7 @@ live_config_reload = true
 
 [bell]
 animation = "EaseOutExpo"
-color = "0xffffff"
+color = "0xff3334"
 duration = 0
 
 [colors]
@@ -30,7 +30,7 @@ yellow = "0xe6c547"
 
 [colors.primary]
 background = "0x000000"
-foreground = "0xeaeaea"
+foreground = "0xff3334"
 
 
 [cursor]
@@ -566,13 +566,13 @@ multiplier = 3
 
 [window]
 decorations = "none"
-dynamic_padding = true
+dynamic_padding = false
 opacity = 0.5
 
 [window.dimensions]
-columns = 0
-lines = 0
+columns = 100
+lines = 85
 
 [window.padding]
-x = 10
-y = 5
+x = 20
+y = 20
