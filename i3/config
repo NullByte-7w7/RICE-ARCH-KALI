@@ -54,7 +54,7 @@ floating_modifier Mod1
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym Mod1+Return exec alacritty  
+bindsym Mod1+Return exec alacritty 2>/dev/null
 
 # kill focused window
 bindsym Mod1+Shift+q kill
@@ -67,9 +67,9 @@ bindsym Mod1+d exec --no-startup-id rofi -show run
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 
 #start my Rice
-exec --no-startup-id $HOME/.config/polybar/launch.sh # CHANGE
-exec --no-startup-id $HOME/.config/.feh # CHANGE
-exec --no-startup-id /usr/bin/picom &
+exec --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id /usr/bin/xrandr -s 1920x1080
+exec --no-startup-id $HOME/.config/.feh
 
 # change focus
 bindsym Mod1+$left focus left
@@ -204,4 +204,3 @@ bindsym Mod1+r mode "resize"
 #bar {
 #        status_command i3status
 #}
-
