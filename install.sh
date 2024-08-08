@@ -1,9 +1,30 @@
 #!/usr/bin/env bash
-#HI, DEVELOPER DARSEC, THIS IS MY RICE FOR ARCH LINUX.
+#HI, DEVELOPER NULLBYTE, THIS IS MY RICE FOR ARCH LINUX.
 
 # VARIABLE
 user=$(who i am | cut -d " " -f1)
 
+
+# check executable exist
+check(){
+    path="/usr/bin/fc-cache"
+
+    if [ -e "$path" ]; then
+        echo "[*] Found '$path'"
+    else
+        /usr/bin/echo "[!] NOT FOUND $path. PLEASE INSTALL fc-cache"
+        exit 1
+    fi
+}
+
+# start install rice
+
+if [ "$(whoami)" = "root" ]; then
+
+    /usr/bin/echo "[!] NOT RUNNING WITH ROOT"
+    exit 1
+
+else
 
 	#install dependencies
 	echo -n "Installing the dependencies"
@@ -13,45 +34,53 @@ user=$(who i am | cut -d " " -f1)
 	done
 
 	#clear
-	clear
+	/usr/bin/clear
 		
 	#installing
-	sudo pacman -S xorg-xrandr && pacman -S i3 && pacman -S feh && pacman -S fish && pacman -S i3 && pacman -S polybar && pacman -S rofi && pacman -S alacritty && pacman -S picom && pacman -Syu
+    sudo pacman -S xorg-xrandr i3 feh fish polybar rofi alacritty picom --needed --noconfirm
 
 	#clear screen
-	clear
+	/usr/bin/clear
 
 	#moved i3 for /etc
-	sudo cp -r i3 /etc/
+	sudo /usr/bin/cp -r i3 /etc/
 
 	#moved polybar for /home/user/.config
-	cp -r polybar /home/$user/.config/	
+	/usr/bin/cp -r polybar /home/$user/.config/	
 
 	#moved .feh for /home/user/.config
-	chmod +x feh && cp feh /home/$user/.config/.feh && chown $user:$user /home/$user/.config/.feh
+	/usr/bin/chmod +x feh && cp feh /home/$user/.config/.feh && chown $user:$user /home/$user/.config/.feh
 
 	#moved rofi for /home/user/.config
-	cp -r rofi /home/$user/.config/	
+	/usr/bin/cp -r rofi /home/$user/.config/	
 
 	#moved directory wallpaper for /home/user/.config
-	cp -r wallpaper /home/$user/.config/
+	/usr/bin/cp -r wallpaper /home/$user/.config/
 
 	#moved alacritty for /home/user/.config/
-	cp -r alacritty /home/$user/.config/
+	/usr/bin/cp -r alacritty /home/$user/.config/
 
 	#Moved file for /etc/xdg/picom.conf
-	cp picom.conf /etc/xdg/picom.conf
- 
+	/usr/bin/cp picom.conf /etc/xdg/picom.conf
+
+    #install fonts
+    /usr/bin/cp -r fonts/*ttf /usr/share/fonts/
+    check
+
 	#PERMISSION EXECUTION launch.sh
-	chmod +x /home/$user/.config/polybar/launch.sh	
-	
+	/usr/bin/chmod +x /home/$user/.config/polybar/launch.sh	
+    /usr/bin/chown $user:$user/.config/polybar/launch.sh
+
 	# RESTART I3 AND INIT POLYBAR
 	i3 restart
 	/home/$user/.config/polybar/launch.sh
 
-	#clear screen
-	clear
 
-	sleep 1
+	#clear screen
+	/usr/bin/clear
+
+	/usr/bin/sleep 1
 	
-	echo "THANKS FOR USE MY RICE!"
+	/usr/bin/echo "THANKS FOR USE MY RICE!"
+
+fi
