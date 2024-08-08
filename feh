@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #Darksec
-feh --no-fehbg --bg-fill /$HOME/.config/wallpaper/sky.png &
+feh --no-fehbg --bg-fill $HOME/.config/wallpaper/pixel.png &
