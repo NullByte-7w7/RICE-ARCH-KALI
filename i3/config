@@ -54,7 +54,7 @@ floating_modifier Mod1
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym Mod1+Return exec alacritty 2>/dev/null
+bindsym Mod1+Return exec /usr/bin/kitty 2>/dev/null
 
 # kill focused window
 bindsym Mod1+Shift+q kill
@@ -70,6 +70,11 @@ bindsym Mod1+d exec --no-startup-id rofi -show run
 exec --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id /usr/bin/xrandr -s 1920x1080
 exec --no-startup-id $HOME/.config/.feh
+default_border pixel 2
+for_window [class="^.*"] border pixel 2
+client.focused          #FF0000 #FF0000 #FFFFFF #FF0000
+gaps inner 3
+
 
 # change focus
 bindsym Mod1+$left focus left
