@@ -15,5 +15,6 @@
 
 **TERMINAL OPEN**
 
-![Rice](https://github.com/user-attachments/assets/29b42982-35c2-45cd-b6d4-dc9b0f26eaea)
+![VirtualBox_kali-linux-2024 3-virtualbox-amd64_14_10_2024_23_13_47](https://github.com/user-attachments/assets/2ef3e360-b144-4cfc-8394-b640e099d819)
+
 
