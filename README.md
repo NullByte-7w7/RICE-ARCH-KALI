@@ -1,7 +1,7 @@
 # THANKS FOR VIEW MY RICE
 **KEEP LEARN**
 
-**CLEAN ARCH**
+**CLEAN ARCH/KALI**
 
 ![Rice](https://github.com/user-attachments/assets/5599ab6d-1857-44f1-afab-02ec4e3fd47d)
 
